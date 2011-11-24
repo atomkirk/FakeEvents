@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C23243ED13287B55007B4E05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243EC13287B55007B4E05 /* UIKit.framework */; };
+		C23243EF13287B55007B4E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243EE13287B55007B4E05 /* Foundation.framework */; };
+		C23243F113287B55007B4E05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243F013287B55007B4E05 /* CoreGraphics.framework */; };
+		C23243F713287B55007B4E05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C23243F513287B55007B4E05 /* InfoPlist.strings */; };
+		C23243FA13287B55007B4E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C23243F913287B55007B4E05 /* main.m */; };
+		C23243FD13287B56007B4E05 /* fakeeventsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C23243FC13287B56007B4E05 /* fakeeventsAppDelegate.m */; };
+		C232440113287B56007B4E05 /* fakeeventsAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C232440013287B56007B4E05 /* fakeeventsAppDelegate_iPhone.m */; };
+		C232440413287B56007B4E05 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C232440213287B56007B4E05 /* MainWindow_iPhone.xib */; };
+		C232441213287B56007B4E05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243EC13287B55007B4E05 /* UIKit.framework */; };
+		C232441313287B56007B4E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243EE13287B55007B4E05 /* Foundation.framework */; };
+		C232441413287B56007B4E05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243F013287B55007B4E05 /* CoreGraphics.framework */; };
+		C232441C13287B56007B4E05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C232441A13287B56007B4E05 /* InfoPlist.strings */; };
+		C232441F13287B56007B4E05 /* fakeeventsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C232441E13287B56007B4E05 /* fakeeventsTests.h */; };
+		C232442113287B56007B4E05 /* fakeeventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C232442013287B56007B4E05 /* fakeeventsTests.m */; };
+		C232442B13287B85007B4E05 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C232442A13287B85007B4E05 /* icon@2x.png */; };
+		C232442D13287B8E007B4E05 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C232442C13287B8E007B4E05 /* icon.png */; };
+		C232442F13287C5E007B4E05 /* icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C232442E13287C5E007B4E05 /* icon_ipad.png */; };
+		C232443213287DA0007B4E05 /* FECalendarChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = C232443113287DA0007B4E05 /* FECalendarChooser.m */; };
+		C232443513287E84007B4E05 /* FEFakeContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C232443413287E84007B4E05 /* FEFakeContactsViewController.m */; };
+		C232443A1328802C007B4E05 /* FEEventStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C23244391328802C007B4E05 /* FEEventStore.m */; };
+		C232443C132880A1007B4E05 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C232443B132880A1007B4E05 /* EventKit.framework */; };
+		C232443F1328914A007B4E05 /* FEFakeData.m in Sources */ = {isa = PBXBuildFile; fileRef = C232443E1328914A007B4E05 /* FEFakeData.m */; };
+		C232444F1328A2B0007B4E05 /* FakeDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C232444E1328A2AE007B4E05 /* FakeDataTests.m */; };
+		C2324452132949E6007B4E05 /* FESelectMinDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2324451132949E5007B4E05 /* FESelectMinDateViewController.m */; };
+		C232445513294A04007B4E05 /* FESelectMaxDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C232445413294A03007B4E05 /* FESelectMaxDateViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C232441513287B56007B4E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C23243DF13287B55007B4E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23243E713287B55007B4E05;
+			remoteInfo = fakeevents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C23243E813287B55007B4E05 /* fakeevents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakeevents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23243EC13287B55007B4E05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C23243EE13287B55007B4E05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C23243F013287B55007B4E05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C23243F413287B55007B4E05 /* fakeevents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fakeevents-Info.plist"; sourceTree = "<group>"; };
+		C23243F613287B55007B4E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C23243F813287B55007B4E05 /* fakeevents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fakeevents-Prefix.pch"; sourceTree = "<group>"; };
+		C23243F913287B55007B4E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C23243FB13287B55007B4E05 /* fakeeventsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fakeeventsAppDelegate.h; sourceTree = "<group>"; };
+		C23243FC13287B56007B4E05 /* fakeeventsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fakeeventsAppDelegate.m; sourceTree = "<group>"; };
+		C23243FF13287B56007B4E05 /* fakeeventsAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fakeeventsAppDelegate_iPhone.h; path = iPhone/fakeeventsAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		C232440013287B56007B4E05 /* fakeeventsAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = fakeeventsAppDelegate_iPhone.m; path = iPhone/fakeeventsAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		C232440313287B56007B4E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		C232441113287B56007B4E05 /* fakeeventsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakeeventsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C232441913287B56007B4E05 /* fakeeventsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fakeeventsTests-Info.plist"; sourceTree = "<group>"; };
+		C232441B13287B56007B4E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C232441D13287B56007B4E05 /* fakeeventsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fakeeventsTests-Prefix.pch"; sourceTree = "<group>"; };
+		C232441E13287B56007B4E05 /* fakeeventsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fakeeventsTests.h; sourceTree = "<group>"; };
+		C232442013287B56007B4E05 /* fakeeventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fakeeventsTests.m; sourceTree = "<group>"; };
+		C232442A13287B85007B4E05 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C232442C13287B8E007B4E05 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C232442E13287C5E007B4E05 /* icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ipad.png; sourceTree = "<group>"; };
+		C232443013287DA0007B4E05 /* FECalendarChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FECalendarChooser.h; sourceTree = "<group>"; };
+		C232443113287DA0007B4E05 /* FECalendarChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FECalendarChooser.m; sourceTree = "<group>"; };
+		C232443313287E84007B4E05 /* FEFakeContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEFakeContactsViewController.h; sourceTree = "<group>"; };
+		C232443413287E84007B4E05 /* FEFakeContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEFakeContactsViewController.m; sourceTree = "<group>"; };
+		C23244381328802C007B4E05 /* FEEventStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEEventStore.h; sourceTree = "<group>"; };
+		C23244391328802C007B4E05 /* FEEventStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEEventStore.m; sourceTree = "<group>"; };
+		C232443B132880A1007B4E05 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C232443D1328914A007B4E05 /* FEFakeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEFakeData.h; sourceTree = "<group>"; };
+		C232443E1328914A007B4E05 /* FEFakeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEFakeData.m; sourceTree = "<group>"; };
+		C232444D1328A2AE007B4E05 /* FakeDataTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FakeDataTests.h; path = ../FakeDataTests.h; sourceTree = "<group>"; };
+		C232444E1328A2AE007B4E05 /* FakeDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FakeDataTests.m; path = ../FakeDataTests.m; sourceTree = "<group>"; };
+		C2324450132949E5007B4E05 /* FESelectMinDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FESelectMinDateViewController.h; sourceTree = "<group>"; };
+		C2324451132949E5007B4E05 /* FESelectMinDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FESelectMinDateViewController.m; sourceTree = "<group>"; };
+		C232445313294A02007B4E05 /* FESelectMaxDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FESelectMaxDateViewController.h; sourceTree = "<group>"; };
+		C232445413294A03007B4E05 /* FESelectMaxDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FESelectMaxDateViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C23243E513287B55007B4E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C232443C132880A1007B4E05 /* EventKit.framework in Frameworks */,
+				C23243ED13287B55007B4E05 /* UIKit.framework in Frameworks */,
+				C23243EF13287B55007B4E05 /* Foundation.framework in Frameworks */,
+				C23243F113287B55007B4E05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C232440D13287B56007B4E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C232441213287B56007B4E05 /* UIKit.framework in Frameworks */,
+				C232441313287B56007B4E05 /* Foundation.framework in Frameworks */,
+				C232441413287B56007B4E05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C23243DD13287B55007B4E05 = {
+			isa = PBXGroup;
+			children = (
+				C232442E13287C5E007B4E05 /* icon_ipad.png */,
+				C232442C13287B8E007B4E05 /* icon.png */,
+				C232442A13287B85007B4E05 /* icon@2x.png */,
+				C23243F213287B55007B4E05 /* fakeevents */,
+				C232441713287B56007B4E05 /* fakeeventsTests */,
+				C23243EB13287B55007B4E05 /* Frameworks */,
+				C23243E913287B55007B4E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23243E913287B55007B4E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C23243E813287B55007B4E05 /* fakeevents.app */,
+				C232441113287B56007B4E05 /* fakeeventsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23243EB13287B55007B4E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C232443B132880A1007B4E05 /* EventKit.framework */,
+				C23243EC13287B55007B4E05 /* UIKit.framework */,
+				C23243EE13287B55007B4E05 /* Foundation.framework */,
+				C23243F013287B55007B4E05 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C23243F213287B55007B4E05 /* fakeevents */ = {
+			isa = PBXGroup;
+			children = (
+				C23243FB13287B55007B4E05 /* fakeeventsAppDelegate.h */,
+				C23243FC13287B56007B4E05 /* fakeeventsAppDelegate.m */,
+				C232443613288003007B4E05 /* Controllers */,
+				C232443713288012007B4E05 /* Models */,
+				C23243FE13287B56007B4E05 /* iPhone */,
+				C23243F313287B55007B4E05 /* Supporting Files */,
+			);
+			path = fakeevents;
+			sourceTree = "<group>";
+		};
+		C23243F313287B55007B4E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C23243F413287B55007B4E05 /* fakeevents-Info.plist */,
+				C23243F513287B55007B4E05 /* InfoPlist.strings */,
+				C23243F813287B55007B4E05 /* fakeevents-Prefix.pch */,
+				C23243F913287B55007B4E05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C23243FE13287B56007B4E05 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C23243FF13287B56007B4E05 /* fakeeventsAppDelegate_iPhone.h */,
+				C232440013287B56007B4E05 /* fakeeventsAppDelegate_iPhone.m */,
+				C232440213287B56007B4E05 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		C232441713287B56007B4E05 /* fakeeventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C232441E13287B56007B4E05 /* fakeeventsTests.h */,
+				C232442013287B56007B4E05 /* fakeeventsTests.m */,
+				C232444D1328A2AE007B4E05 /* FakeDataTests.h */,
+				C232444E1328A2AE007B4E05 /* FakeDataTests.m */,
+				C232441813287B56007B4E05 /* Supporting Files */,
+			);
+			path = fakeeventsTests;
+			sourceTree = "<group>";
+		};
+		C232441813287B56007B4E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C232441913287B56007B4E05 /* fakeeventsTests-Info.plist */,
+				C232441A13287B56007B4E05 /* InfoPlist.strings */,
+				C232441D13287B56007B4E05 /* fakeeventsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C232443613288003007B4E05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C232443313287E84007B4E05 /* FEFakeContactsViewController.h */,
+				C232443413287E84007B4E05 /* FEFakeContactsViewController.m */,
+				C232443013287DA0007B4E05 /* FECalendarChooser.h */,
+				C232443113287DA0007B4E05 /* FECalendarChooser.m */,
+				C2324450132949E5007B4E05 /* FESelectMinDateViewController.h */,
+				C2324451132949E5007B4E05 /* FESelectMinDateViewController.m */,
+				C232445313294A02007B4E05 /* FESelectMaxDateViewController.h */,
+				C232445413294A03007B4E05 /* FESelectMaxDateViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C232443713288012007B4E05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C23244381328802C007B4E05 /* FEEventStore.h */,
+				C23244391328802C007B4E05 /* FEEventStore.m */,
+				C232443D1328914A007B4E05 /* FEFakeData.h */,
+				C232443E1328914A007B4E05 /* FEFakeData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C23243E713287B55007B4E05 /* fakeevents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C232442413287B56007B4E05 /* Build configuration list for PBXNativeTarget "fakeevents" */;
+			buildPhases = (
+				C23243E413287B55007B4E05 /* Sources */,
+				C23243E513287B55007B4E05 /* Frameworks */,
+				C23243E613287B55007B4E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fakeevents;
+			productName = fakeevents;
+			productReference = C23243E813287B55007B4E05 /* fakeevents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C232441013287B56007B4E05 /* fakeeventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C232442713287B56007B4E05 /* Build configuration list for PBXNativeTarget "fakeeventsTests" */;
+			buildPhases = (
+				C232440C13287B56007B4E05 /* Sources */,
+				C232440D13287B56007B4E05 /* Frameworks */,
+				C232440E13287B56007B4E05 /* Resources */,
+				C232440F13287B56007B4E05 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C232441613287B56007B4E05 /* PBXTargetDependency */,
+			);
+			name = fakeeventsTests;
+			productName = fakeeventsTests;
+			productReference = C232441113287B56007B4E05 /* fakeeventsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C23243DF13287B55007B4E05 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C23243E213287B55007B4E05 /* Build configuration list for PBXProject "fakeevents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C23243DD13287B55007B4E05;
+			productRefGroup = C23243E913287B55007B4E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C23243E713287B55007B4E05 /* fakeevents */,
+				C232441013287B56007B4E05 /* fakeeventsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C23243E613287B55007B4E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23243F713287B55007B4E05 /* InfoPlist.strings in Resources */,
+				C232440413287B56007B4E05 /* MainWindow_iPhone.xib in Resources */,
+				C232442B13287B85007B4E05 /* icon@2x.png in Resources */,
+				C232442D13287B8E007B4E05 /* icon.png in Resources */,
+				C232442F13287C5E007B4E05 /* icon_ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C232440E13287B56007B4E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C232441C13287B56007B4E05 /* InfoPlist.strings in Resources */,
+				C232441F13287B56007B4E05 /* fakeeventsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C232440F13287B56007B4E05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23243E413287B55007B4E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23243FA13287B55007B4E05 /* main.m in Sources */,
+				C23243FD13287B56007B4E05 /* fakeeventsAppDelegate.m in Sources */,
+				C232440113287B56007B4E05 /* fakeeventsAppDelegate_iPhone.m in Sources */,
+				C232443213287DA0007B4E05 /* FECalendarChooser.m in Sources */,
+				C232443513287E84007B4E05 /* FEFakeContactsViewController.m in Sources */,
+				C232443A1328802C007B4E05 /* FEEventStore.m in Sources */,
+				C232443F1328914A007B4E05 /* FEFakeData.m in Sources */,
+				C2324452132949E6007B4E05 /* FESelectMinDateViewController.m in Sources */,
+				C232445513294A04007B4E05 /* FESelectMaxDateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C232440C13287B56007B4E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C232442113287B56007B4E05 /* fakeeventsTests.m in Sources */,
+				C232444F1328A2B0007B4E05 /* FakeDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C232441613287B56007B4E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23243E713287B55007B4E05 /* fakeevents */;
+			targetProxy = C232441513287B56007B4E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C23243F513287B55007B4E05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23243F613287B55007B4E05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C232440213287B56007B4E05 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C232440313287B56007B4E05 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C232441A13287B56007B4E05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C232441B13287B56007B4E05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C232442213287B56007B4E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Kirk (XMMTRTMN8D)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"OTHER_CFLAGS[arch=*]" = "";
+				PROVISIONING_PROFILE = "E057BE3A-5A62-4053-9614-0EDD32D97E80";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C232442313287B56007B4E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C232442513287B56007B4E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Kirk (XMMTRTMN8D)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fakeevents/fakeevents-Prefix.pch";
+				INFOPLIST_FILE = "fakeevents/fakeevents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E057BE3A-5A62-4053-9614-0EDD32D97E80";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C232442613287B56007B4E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fakeevents/fakeevents-Prefix.pch";
+				INFOPLIST_FILE = "fakeevents/fakeevents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C232442813287B56007B4E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fakeevents.app/fakeevents";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fakeeventsTests/fakeeventsTests-Prefix.pch";
+				INFOPLIST_FILE = "fakeeventsTests/fakeeventsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C232442913287B56007B4E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fakeevents.app/fakeevents";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fakeeventsTests/fakeeventsTests-Prefix.pch";
+				INFOPLIST_FILE = "fakeeventsTests/fakeeventsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C23243E213287B55007B4E05 /* Build configuration list for PBXProject "fakeevents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C232442213287B56007B4E05 /* Debug */,
+				C232442313287B56007B4E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C232442413287B56007B4E05 /* Build configuration list for PBXNativeTarget "fakeevents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C232442513287B56007B4E05 /* Debug */,
+				C232442613287B56007B4E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C232442713287B56007B4E05 /* Build configuration list for PBXNativeTarget "fakeeventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C232442813287B56007B4E05 /* Debug */,
+				C232442913287B56007B4E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C23243DF13287B55007B4E05 /* Project object */;
+}
