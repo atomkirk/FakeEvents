@@ -113,7 +113,7 @@
 			if (rand() % 10 == 0) event.availability = [FEFakeData generateRandomAvailability];
 			if (rand() % 5 == 0) event.location = [FEFakeData generateRandomLocation];
 			if (rand() % 5 == 0) event.notes = [FEFakeData generateRandomNote];
-			if (rand() % 5 == 0) event.recurrenceRule = [FEFakeData generateRandomRecurrenceRuleWithEndDate:[FEFakeData generateRandomEndDateGivenStartDate:event.endDate]];
+			if (rand() % 5 == 0) event.recurrenceRules = @[[FEFakeData generateRandomRecurrenceRuleWithEndDate:[FEFakeData generateRandomEndDateGivenStartDate:event.endDate]]];
 			[FEEventStore saveEvent:event];
 			
 			NSString *status = [NSString stringWithFormat:@"%d/%d", i, [howMany intValue]];

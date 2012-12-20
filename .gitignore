@@ -1,11 +1,19 @@
-# xcode noise
+# Exclude the build directory
 build/*
-*.pbxuser
-*.mode1v3
-
-# old skool
-.svn
-
-# osx noise
+ 
+# Exclude temp nibs and swap files
+*~.nib
+*.swp
+ 
+# Exclude OS X folder attributes
 .DS_Store
-profile
+ 
+# Exclude user-specific XCode 3 and 4 files
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata

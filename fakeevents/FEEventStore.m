@@ -28,36 +28,6 @@ static FEEventStore *sharedInstance = nil;
     return sharedInstance;
 }
 
-+ (id)allocWithZone:(NSZone *)zone
-{
-    return [[self sharedInstance] retain];
-}
-
-- (id)copyWithZone:(NSZone *)zone
-{
-    return self;
-}
-
-- (id)retain
-{
-    return self;
-}
-
-- (NSUInteger)retainCount
-{
-    return NSUIntegerMax;  //denotes an object that cannot be released
-}
-
-- (void)release
-{
-    //do nothing
-}
-
-- (id)autorelease
-{
-    return self;
-}
-
 - (NSDate *)minDate {
     if (minDate) {
         return minDate;

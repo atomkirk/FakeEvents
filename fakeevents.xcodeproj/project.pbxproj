@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20B45BE1638BE7C00C16581 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C20B45BD1638BE7C00C16581 /* Default-568h@2x.png */; };
 		C23243ED13287B55007B4E05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243EC13287B55007B4E05 /* UIKit.framework */; };
 		C23243EF13287B55007B4E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243EE13287B55007B4E05 /* Foundation.framework */; };
 		C23243F113287B55007B4E05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23243F013287B55007B4E05 /* CoreGraphics.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C20B45BD1638BE7C00C16581 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C23243E813287B55007B4E05 /* fakeevents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakeevents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23243EC13287B55007B4E05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C23243EE13287B55007B4E05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 		C23243DD13287B55007B4E05 = {
 			isa = PBXGroup;
 			children = (
+				C20B45BD1638BE7C00C16581 /* Default-568h@2x.png */,
 				C232442E13287C5E007B4E05 /* icon_ipad.png */,
 				C232442C13287B8E007B4E05 /* icon.png */,
 				C232442A13287B85007B4E05 /* icon@2x.png */,
@@ -296,6 +299,7 @@
 				C232442B13287B85007B4E05 /* icon@2x.png in Resources */,
 				C232442D13287B8E007B4E05 /* icon.png in Resources */,
 				C232442F13287C5E007B4E05 /* icon_ipad.png in Resources */,
+				C20B45BE1638BE7C00C16581 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Kirk (XMMTRTMN8D)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -404,7 +408,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				"OTHER_CFLAGS[arch=*]" = "";
-				PROVISIONING_PROFILE = "E057BE3A-5A62-4053-9614-0EDD32D97E80";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -414,12 +418,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,15 +435,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Kirk (XMMTRTMN8D)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fakeevents/fakeevents-Prefix.pch";
 				INFOPLIST_FILE = "fakeevents/fakeevents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E057BE3A-5A62-4053-9614-0EDD32D97E80";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -450,7 +454,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fakeevents/fakeevents-Prefix.pch";
 				INFOPLIST_FILE = "fakeevents/fakeevents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
