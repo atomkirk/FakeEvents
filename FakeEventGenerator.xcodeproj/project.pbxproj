@@ -22,6 +22,13 @@
 		C20F235D17F4EE01000C1C2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20F233C17F4EE01000C1C2C /* UIKit.framework */; };
 		C20F236517F4EE01000C1C2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C20F236317F4EE01000C1C2C /* InfoPlist.strings */; };
 		C20F236717F4EE01000C1C2C /* FakeEventGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F236617F4EE01000C1C2C /* FakeEventGeneratorTests.m */; };
+		C20F237417F4EE89000C1C2C /* FEEventStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F237117F4EE89000C1C2C /* FEEventStore.m */; };
+		C20F237517F4EE89000C1C2C /* FEFakeData.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F237317F4EE89000C1C2C /* FEFakeData.m */; };
+		C20F237717F4EEAC000C1C2C /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20F237617F4EEAC000C1C2C /* EventKit.framework */; };
+		C20F237A17F4F2DE000C1C2C /* FEGSelectDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F237917F4F2DE000C1C2C /* FEGSelectDateViewController.m */; };
+		C23E686B181232130083CCF4 /* UIColor+Calvetica.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E686A181232130083CCF4 /* UIColor+Calvetica.m */; };
+		C24D12011810D011001A74C9 /* FEGAddCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24D12001810D011001A74C9 /* FEGAddCalendarViewController.m */; };
+		C24D12071810D5D1001A74C9 /* FEGCalendarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24D12061810D5D1001A74C9 /* FEGCalendarsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,19 @@
 		C20F236217F4EE01000C1C2C /* FakeEventGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FakeEventGeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		C20F236417F4EE01000C1C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C20F236617F4EE01000C1C2C /* FakeEventGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeEventGeneratorTests.m; sourceTree = "<group>"; };
+		C20F237017F4EE89000C1C2C /* FEEventStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEEventStore.h; sourceTree = "<group>"; };
+		C20F237117F4EE89000C1C2C /* FEEventStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEEventStore.m; sourceTree = "<group>"; };
+		C20F237217F4EE89000C1C2C /* FEFakeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEFakeData.h; sourceTree = "<group>"; };
+		C20F237317F4EE89000C1C2C /* FEFakeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEFakeData.m; sourceTree = "<group>"; };
+		C20F237617F4EEAC000C1C2C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C20F237817F4F2DE000C1C2C /* FEGSelectDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEGSelectDateViewController.h; sourceTree = "<group>"; };
+		C20F237917F4F2DE000C1C2C /* FEGSelectDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEGSelectDateViewController.m; sourceTree = "<group>"; };
+		C23E6869181232130083CCF4 /* UIColor+Calvetica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Calvetica.h"; sourceTree = "<group>"; };
+		C23E686A181232130083CCF4 /* UIColor+Calvetica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Calvetica.m"; sourceTree = "<group>"; };
+		C24D11FF1810D011001A74C9 /* FEGAddCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEGAddCalendarViewController.h; sourceTree = "<group>"; };
+		C24D12001810D011001A74C9 /* FEGAddCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEGAddCalendarViewController.m; sourceTree = "<group>"; };
+		C24D12051810D5D1001A74C9 /* FEGCalendarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEGCalendarsViewController.h; sourceTree = "<group>"; };
+		C24D12061810D5D1001A74C9 /* FEGCalendarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEGCalendarsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20F237717F4EEAC000C1C2C /* EventKit.framework in Frameworks */,
 				C20F233B17F4EE01000C1C2C /* CoreGraphics.framework in Frameworks */,
 				C20F233D17F4EE01000C1C2C /* UIKit.framework in Frameworks */,
 				C20F233917F4EE01000C1C2C /* Foundation.framework in Frameworks */,
@@ -103,6 +124,7 @@
 		C20F233717F4EE01000C1C2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C20F237617F4EEAC000C1C2C /* EventKit.framework */,
 				C20F233817F4EE01000C1C2C /* Foundation.framework */,
 				C20F233A17F4EE01000C1C2C /* CoreGraphics.framework */,
 				C20F233C17F4EE01000C1C2C /* UIKit.framework */,
@@ -120,6 +142,18 @@
 				C20F234D17F4EE01000C1C2C /* Main_iPad.storyboard */,
 				C20F235017F4EE01000C1C2C /* FEGViewController.h */,
 				C20F235117F4EE01000C1C2C /* FEGViewController.m */,
+				C20F237817F4F2DE000C1C2C /* FEGSelectDateViewController.h */,
+				C20F237917F4F2DE000C1C2C /* FEGSelectDateViewController.m */,
+				C24D12051810D5D1001A74C9 /* FEGCalendarsViewController.h */,
+				C24D12061810D5D1001A74C9 /* FEGCalendarsViewController.m */,
+				C24D11FF1810D011001A74C9 /* FEGAddCalendarViewController.h */,
+				C24D12001810D011001A74C9 /* FEGAddCalendarViewController.m */,
+				C20F237017F4EE89000C1C2C /* FEEventStore.h */,
+				C20F237117F4EE89000C1C2C /* FEEventStore.m */,
+				C20F237217F4EE89000C1C2C /* FEFakeData.h */,
+				C20F237317F4EE89000C1C2C /* FEFakeData.m */,
+				C23E6869181232130083CCF4 /* UIColor+Calvetica.h */,
+				C23E686A181232130083CCF4 /* UIColor+Calvetica.m */,
 				C20F235317F4EE01000C1C2C /* Images.xcassets */,
 				C20F233F17F4EE01000C1C2C /* Supporting Files */,
 			);
@@ -200,7 +234,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FEG;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Mysterious Trousers";
 				TargetAttributes = {
 					C20F235817F4EE01000C1C2C = {
@@ -255,8 +289,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C20F235217F4EE01000C1C2C /* FEGViewController.m in Sources */,
+				C23E686B181232130083CCF4 /* UIColor+Calvetica.m in Sources */,
+				C20F237A17F4F2DE000C1C2C /* FEGSelectDateViewController.m in Sources */,
 				C20F234517F4EE01000C1C2C /* main.m in Sources */,
 				C20F234917F4EE01000C1C2C /* FEGAppDelegate.m in Sources */,
+				C20F237517F4EE89000C1C2C /* FEFakeData.m in Sources */,
+				C24D12071810D5D1001A74C9 /* FEGCalendarsViewController.m in Sources */,
+				C24D12011810D011001A74C9 /* FEGAddCalendarViewController.m in Sources */,
+				C20F237417F4EE89000C1C2C /* FEEventStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +358,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -358,7 +397,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -417,7 +455,6 @@
 		C20F236E17F4EE01000C1C2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FakeEventGenerator.app/FakeEventGenerator";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -440,7 +477,6 @@
 		C20F236F17F4EE01000C1C2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FakeEventGenerator.app/FakeEventGenerator";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -475,6 +511,7 @@
 				C20F236C17F4EE01000C1C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C20F236D17F4EE01000C1C2C /* Build configuration list for PBXNativeTarget "FakeEventGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +520,7 @@
 				C20F236F17F4EE01000C1C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
